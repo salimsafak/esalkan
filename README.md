@@ -7,7 +7,7 @@
       <p>Sign into your GitHub account, or <a href="https://github.com/join">create a free GitHub account</a> if you don't have one.</p>
       <h2><u>Step 2</u>: Fork the project repository</h2>
       <p>Find the project's repository on GitHub, and then "fork" it by clicking the <strong>Fork</strong> button in the upper right corner:</p>
-      ![Fork The Repo](/img/fork.png "Fork The Repo")
+      <img src='/img/fork.png'>    
 
 </details>
 
