@@ -1,5 +1,5 @@
 # Test Automation Example Tasks
-> ## This repository contains some sample testing tasks for those who are interested. New tasks and scenarios will be added and developed over the time...
+> ## This repository contains some sample testing tasks for those who are interested. New tasks and scenarios will be added and developed over the time... Please feel free for contributing....
 
 <details>
   <summary><strong>CherCherTech Test Tasks Example</strong></summary>
