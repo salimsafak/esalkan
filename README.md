@@ -2,6 +2,13 @@
 > ## This repository contains some sample testing tasks for those who are interested. New tasks and scenarios will be added and developed over the time...
 
 <details>
+  <summary><strong>Contribution Guide</strong></summary>
+      <h2><u>Step 1</u>: Sign into GitHub</h2>
+      <p>Sign into your GitHub account, or <a href="https://github.com/join">create a free GitHub account</a> if you don't have one.</p>
+</details>
+
+
+<details>
   <summary><strong>CherCherTech Test Tasks Example</strong></summary>
   <ol>
     <li>
