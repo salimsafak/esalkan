@@ -1,3 +1,4 @@
 /.idea/
 /AutomationTasks.iml
 /target/
+.DS_Store
