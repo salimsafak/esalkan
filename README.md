@@ -151,3 +151,21 @@
   
   <h2><u>Step 12</u>: Begin the pull request</h2>
   <p>Return to your fork on GitHub, and refresh the page. You may see a highlighted area that displays your recently pushed branch:</p>
+  <div align="center">
+<p><img src="/img/step12.png" alt="Recently pushed branch in your fork"></p>
+</div>
+<p>Click the green <strong>Compare &amp; pull request</strong> button to begin the pull request.</p>
+<p>(Alternatively, if you don't see this highlighted area, you can switch to your branch using the <strong>Branch</strong> button and then click the <strong>New pull request</strong> button.)</p>
+<h2><u>Step 13</u>: Create the pull request</h2>
+<p>When opening a "pull request", you are making a "request" that the project repository "pull" changes from your fork. You will see that the project repository is listed as the "base repository", and your fork is listed as the "head repository":</p>
+<div align="center">
+<p><img src="/img/step13.png" alt="Opening a GitHub pull request"></p>
+</div>
+<p>Before submitting the pull request, you first need to describe the changes you made (rather than asking the project maintainers to figure them out on their own). You should write a descriptive title for your pull request, and then include more details in the body of the pull request. If there are any related GitHub issues, make sure to mention those by number. The body can include Markdown formatting, and you can click the <strong>Preview</strong> tab to see how it will look.</p>
+<p>Below the pull request form, you will see a list of the commits you made in your branch, as well as the "diffs" for all of the files you changed.</p>
+<p>If everything looks good, click the green <strong>Create pull request</strong> button!</p>
+<p>This diagram summarizes the entire pull request process process (steps 7 through 13):</p>
+<div align="center">
+<p><img src="/img/step13diagram" alt="Diagram of the pull request process"></p>
+</div>
+
