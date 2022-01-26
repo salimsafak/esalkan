@@ -44,7 +44,7 @@
   <p>Use <code>git remote -v</code> to check that you now have two remotes: an origin that points to your fork, and an upstream that points to the project repository.</p>
   <p>This diagram summarizes the entire setup process (steps 1 through 6):</p>
   <div align="center">
-<p><img src="/img/step6-2" alt="Diagram of forking and cloning"></p>
+<p><img src="/img/diagram-2.png" alt="Diagram of forking and cloning"></p>
 </div>
 </details>
 
