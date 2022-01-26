@@ -46,6 +46,26 @@
   <div align="center">
 <p><img src="/img/diagram-2.png" alt="Diagram of forking and cloning"></p>
 </div>
+  
+  <h2><u>Step 7</u>: Pull the latest changes from upstream into your local repository</h2>
+  <p>If you forked and cloned the project repository just a few minutes ago, it's very unlikely there will be any changes, in which case Git will report that your local repository is "already up to date". But if there are any changes, they will automatically be merged into your local repository.</p>
+  <h2><u>Step 8</u>: Create a new branch</h2>
+  <p>Rather than making changes to the project's "master" branch, it's a good practice to instead create your own branch. This creates an environment for your work that is isolated from the master branch.</p>
+  <p>Use <code>git checkout -b BRANCH_NAME</code> to create a new branch and then immediately switch to it. The name of the branch should briefly describe what you are working on, and should not contain any spaces.</p>
+  <p>For example, <code>git checkout -b new-testcase</code> because I was making some small fixes to the documentation.</p>
+  <p>Use <code>git branch</code> to show your local branches. You should see your new branch as well as "master", and your new branch should have an asterisk next to it to indicate that it's "checked out" (meaning that you're working in it).</p>
+  <h2><u>Step 9</u>: Make changes in your local repository</h2>
+  <p>Use a text editor or IDE to make the changes you planned to the files in your local repository. Because you checked out a branch in the previous step, any edits you make will only affect that branch.</p>
+  <h2><u>Step 10</u>: Commit your changes</h2>
+  <p>After you make a set of changes, use <code>git add -A</code> to stage your changes and <code>git commit -m "DESCRIPTION OF CHANGES"</code> to commit them.</p>
+  <p>For example, <code>git commit -m "New Test Case"</code> for one of commits.</p>
+  <p>If you are making multiple sets of changes, it's a good to make a commit after each set.</p>
+  <h2><u>Step 11</u>: Push your changes to your fork</h2>
+  <p>When you are done making all of your changes, upload these changes to your fork using <code>git push origin BRANCH_NAME</code>. This "pushes" your changes to the "BRANCH_NAME" branch of the "origin" (which is your fork on GitHub).</p>
+  <p>For example, <code>git push origin new-testcase</code>.</p>
+  
+  <h2><u>Step 12</u>: Begin the pull request</h2>
+  <p>Return to your fork on GitHub, and refresh the page. You may see a highlighted area that displays your recently pushed branch:</p>
 </details>
 
 
