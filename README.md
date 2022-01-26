@@ -85,6 +85,22 @@
   </ol>
 </details>
 
+<details>
+  <summary><strong>Vytrack Test Tasks Example (<a href="https://github.com/esalkan/TestAutomationTasks/tree/master/src/test/java/com/vytrack">Package</a>)</strong></summary>
+  <ol>
+    <li>
+      <a href="https://github.com/esalkan/TestAutomationTasks/blob/master/src/test/java/com/vytrack/Tasks">Task List</a>
+    </li>
+    <li>
+      <a href="https://github.com/esalkan/TestAutomationTasks/tree/master/src/test/java/com/vytrack/pages">Pages</a>
+    </li>
+    <li>
+      <a href="https://github.com/esalkan/TestAutomationTasks/tree/master/src/test/java/com/vytrack/tests">Tests</a>
+    </li>
+  </ol>
+</details>
+
+
 
 ## Contribution Guide
 
