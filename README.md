@@ -12,6 +12,9 @@
           <img src="/img/fork.png" alt="Forking a GitHub repository">
         </p>
       </div>
+  <div align="center">
+<p><img src="/img/forked.png" alt="Looking at a fork in your GitHub account"></p>
+</div>
 </details>
 
 
