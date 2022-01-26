@@ -13,6 +13,7 @@ import org.testng.annotations.Test;
 import utils.WebDriverFactory;
 
 import java.time.Duration;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @author esalkan
@@ -27,7 +28,7 @@ public class CherCherTest {
     public void setUp() { // Set-up
         driver = WebDriverFactory.getDriver("chrome"); // assign to the driver chrome browser
         driver.manage().window().maximize(); // maximize to browser window
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5)); // waiting elements load
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); // waiting elements load
         // Task1: & Task2:
         // 1. Go to https://chercher.tech/practice/explicit-wait-sample-selenium-webdriver
         driver.get("https://chercher.tech/practice/explicit-wait-sample-selenium-webdriver"); // source url
@@ -53,7 +54,7 @@ public class CherCherTest {
         clickMeButton.click();
 
         // 3. Explicitly wait until alert is present
-        wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+        wait = new WebDriverWait(driver, 5);
         wait.until(ExpectedConditions.alertIsPresent());
 
         // 4. Then handle the Javascript alert
@@ -76,7 +77,7 @@ public class CherCherTest {
 
         // 3. Explicitly wait until the button is enabled
         WebElement disabledButton = driver.findElement(By.id("disable"));
-        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.elementToBeClickable(disabledButton));
 
         // 4. Then verify the button is enabled
@@ -98,7 +99,7 @@ public class CherCherTest {
 
         // 3. Explicitly wait until the button is displayed
         WebElement hiddenButton = driver.findElement(By.id("hidden"));
-        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("hidden")));
         Assert.assertTrue(hiddenButton.isDisplayed(), "Verify that : Hidden button is displayed");
     }
@@ -120,7 +121,7 @@ public class CherCherTest {
         String actualText = driver.findElement(By.id("h2")).getText();
 
         // 3. Wait until in place of  "Site" text,  become "Selenium Webdriver".
-        wait = new WebDriverWait(driver, Duration.ofSeconds(11));
+        wait = new WebDriverWait(driver, 11);
         wait.until(ExpectedConditions.textToBe(By.id("h2"), "Selenium Webdriver"));
 
         // 4. Verify this : "Site" text changed to "Selenium Webdriver".
@@ -147,7 +148,7 @@ public class CherCherTest {
         checkBoxButton.click();
 
         // 4. Wait until check-box is checked.
-        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.elementToBeSelected(checkBox));
 
         // 5. Verify this : check-box is checked.

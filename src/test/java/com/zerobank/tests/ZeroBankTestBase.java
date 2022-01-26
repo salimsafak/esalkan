@@ -9,6 +9,7 @@ import utils.ConfReader;
 import utils.Driver;
 
 import java.time.Duration;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @author esalkan
@@ -24,8 +25,8 @@ public class ZeroBankTestBase {
     public void setUp() {
         driver = Driver.getDriver();
         action = new Actions(driver);
-        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        wait = new WebDriverWait(driver, 10);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get(ConfReader.getConf("zbUrl"));
     }
 
