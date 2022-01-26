@@ -168,4 +168,21 @@
 <div align="center">
 <p><img src="/img/step13diagram" alt="Diagram of the pull request process"></p>
 </div>
+<h2><u>Step 14</u>: Review the pull request</h2>
+<p>You have now created a pull request, which is stored in the project's repository (not in your fork of the repository). It's a good idea to read through what you wrote, as well as clicking on the <strong>Commits</strong> tab and the <strong>Files changed</strong> tab to review the contents of your pull request:</p>
+<div align="center">
+<p><img src="/img/step14.png" alt="Reviewing an open pull request"></p>
+</div>
+<p>If you realize that you left out some important details, you can click the 3 dots in the upper right corner to edit your pull request description.</p>
+<h2><u>Step 15</u>: Discuss the pull request</h2>
+<p>If there are questions or discussion about your pull request from the project maintainers, you can add to the conversation using the comment box at the bottom of the pull request:</p>
+<div align="center">
+<p><img src="/img/step15.png" alt="Commenting on a pull request"></p>
+</div>
+<h2><u>Step 16</u>: Delete your branch from your fork</h2>
+<p>If the project maintainers accept your pull request (congratulations!), they will merge your proposed changes into the project's master branch and close your pull request:</p>
+<p>You will be given the option to delete your branch from your fork, since it's no longer of any use:</p>
+<div align="center">
+<p><img src="/img/step16.png" alt="Merging a pull request"></p>
+</div>
 
