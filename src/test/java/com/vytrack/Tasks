@@ -1,0 +1,51 @@
+Test Data :
+    Environment :   https://qa1.vytrack.com/
+    Username    :   storemanager85
+    Password    :   UserUser123
+
+Task 01 :
+    1. Go to "https://qa1.vytrack.com/"
+    2. Login as a store manager
+    3. Navigate to "Activities -> Calendar Events"
+    4. Verify that page subtitle "Options" is displayed.
+
+Task 02 :
+    1. Go to "https://qa1.vytrack.com/"
+    2. Login as a store manager
+    3. Navigate to "Activities -> Calendar Events"
+    4. Verify that page number is equals to "1"
+
+Task 03 :
+    1. Go to "https://qa1.vytrack.com/"
+    2. Login as a store manager
+    3. Navigate to "Activities -> Calendar Events"
+    4. Verify that "view per page" number is equals to "25"
+
+Task 04 :
+    1. Go to “https://qa1.vytrack.com/"
+    2. Login as a store manager
+    3. Navigate to “Activities -> Calendar Events”
+    4. Verify that number of calendar events (rows in
+    the table) is equals to number of records
+
+Task 05 :
+    1. Go to “https://qa1.vytrack.com/"
+    2. Login as a store manager
+    3. Navigate to “Activities -> Calendar Events”
+    4. Click on the top checkbox to select all
+    5. Verify that all calendar events were selected
+
+Task 06 :
+    1. Go to “https://qa1.vytrack.com/"
+    2. Login as a store manager
+    3. Navigate to “Activities -> Calendar Events”
+    4. Select “Testers meeting”
+    5. Verify that following data is displayed:
+
+    Title           |   Testers meeting
+    Description     |   This is a a weekly testers meeting
+    Start           |   Nov 27, 2019, 9:30 AM
+    End             |   Nov 27, 2019, 10:30 AM
+    All-Day Event   |   No
+    Organizer       |   Stephan Haley
+    Guests          |   Tom Smith
