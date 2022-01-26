@@ -6,9 +6,12 @@
       <h2><u>Step 1</u>: Sign into GitHub</h2>
       <p>Sign into your GitHub account, or <a href="https://github.com/join">create a free GitHub account</a> if you don't have one.</p>
       <h2><u>Step 2</u>: Fork the project repository</h2>
-      <p>Find the project's repository on GitHub, and then "fork" it by clicking the <strong>Fork</strong> button in the upper right corner:</p>
-      <img src='/img/fork.png'>    
-
+      <p>Find the project's repository on GitHub, and then "fork" it by clicking the <strong>Fork</strong> button in the upper right corner:</p> 
+      <div align="center">
+        <p>
+          <img src="/img/fork.png" alt="Forking a GitHub repository">
+        </p>
+      </div>
 </details>
 
 
