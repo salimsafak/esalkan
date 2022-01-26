@@ -166,7 +166,7 @@
 <p>If everything looks good, click the green <strong>Create pull request</strong> button!</p>
 <p>This diagram summarizes the entire pull request process process (steps 7 through 13):</p>
 <div align="center">
-<p><img src="/img/step13diagram" alt="Diagram of the pull request process"></p>
+<p><img src="/img/step13diagram.png" alt="Diagram of the pull request process"></p>
 </div>
 <h2><u>Step 14</u>: Review the pull request</h2>
 <p>You have now created a pull request, which is stored in the project's repository (not in your fork of the repository). It's a good idea to read through what you wrote, as well as clicking on the <strong>Commits</strong> tab and the <strong>Files changed</strong> tab to review the contents of your pull request:</p>
@@ -185,4 +185,16 @@
 <div align="center">
 <p><img src="/img/step16.png" alt="Merging a pull request"></p>
 </div>
-
+<h2><u>Step 17</u>: Delete your branch from your local repository</h2>
+<p>You should also delete the branch you created from your local repository, so that you don't accidentally start working in it the next time you want to make a contribution to this project.</p>
+<p>First, switch to the master branch: <code>git checkout master</code>.</p>
+<p>Then, delete the branch you created: <code>git branch -D BRANCH_NAME</code>. For example, <code>git branch -D new-testcase</code>.</p>
+<h2><u>Step 18</u>: Synchronize your fork with the project repository</h2>
+<p>At this point, your fork is out of sync with the project repository's master branch.</p>
+<p>To get it back in sync, you should first use Git to pull the latest changes from "upstream" (the project repository) into your local repository: <code>git pull upstream master</code>.</p>
+<p>Then, push those changes from your local repository to the "origin" (your fork): <code>git push origin master</code>.</p>
+<p>If you return to your fork on GitHub, you can make fetch-upstream too:</p>
+<div align="center">
+<p><img src="/img/lastStep.png" alt="Fork is even with the project repository"></p>
+</div>
+<h2>🎉 Congratulations! Thank you for your Contributing</h2>
