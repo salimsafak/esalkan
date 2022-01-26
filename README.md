@@ -166,7 +166,7 @@
 <p>If everything looks good, click the green <strong>Create pull request</strong> button!</p>
 <p>This diagram summarizes the entire pull request process process (steps 7 through 13):</p>
 <div align="center">
-<p><img src="/img/step13diagram" alt="Diagram of the pull request process"></p>
+<p><img src="/img/step13diagram.png" alt="Diagram of the pull request process"></p>
 </div>
 <h2><u>Step 14</u>: Review the pull request</h2>
 <p>You have now created a pull request, which is stored in the project's repository (not in your fork of the repository). It's a good idea to read through what you wrote, as well as clicking on the <strong>Commits</strong> tab and the <strong>Files changed</strong> tab to review the contents of your pull request:</p>
