@@ -197,4 +197,4 @@
 <div align="center">
 <p><img src="/img/lastStep.png" alt="Fork is even with the project repository"></p>
 </div>
-<h2>🎉🎉🎉🎉Congratulations!</h2>
+<h2>🎉 Congratulations! Thank you for your Contributing</h2>
